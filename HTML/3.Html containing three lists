@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Lists</title>
+    <style>
+        ul, ol {
+            margin: 20px;
+            padding: 10px;
+        }
+        ol ol {
+            list-style-type: lower-alpha;
+        }
+        ul ul {
+            list-style-type: circle;
+        }
+        ul ul ul {
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <h1>List 1</h1>
+    <ol>
+        <li>One
+            <ol>
+                <li>Uno</li>
+                <li>Hanna</li>
+            </ol>
+        </li>
+        <li>Two
+            <ol>
+                <li>Dos</li>
+                <li>Dool</li>
+            </ol>
+        </li>
+        <li>Three
+            <ol>
+                <li>Tres</li>
+                <li>Set</li>
+            </ol>
+        </li>
+    </ol>
+
+    <h1>List 2</h1>
+    <ul>
+        <li>Chevy
+            <ul>
+                <li>Cavilier</li>
+                <li>Malibu</li>
+            </ul>
+        </li>
+        <li>Ford
+            <ul>
+                <li>Escort</li>
+                <li>F100</li>
+            </ul>
+        </li>
+        <li>Mazda
+            <ul>
+                <li>626</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h1>List 3</h1>
+    <ul>
+        <li>A. Fruits
+            <ol>
+                <li>Apples, Oranges, Pears, Banana</li>
+            </ol>
+        </li>
+        <li>B. Vegetables
+            <ol>
+                <li>Corn
+                    <ul>
+                        <li>On the cob</li>
+                        <li>Cream</li>
+                    </ul>
+                </li>
+                <li>Carrots</li>
+                <li>Green Beans</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>
