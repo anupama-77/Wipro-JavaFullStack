@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Border</title>
+    <style>
+        .bordered-image {
+            border: 2px solid black; /* Border size of 2 pixels with solid black color */
+            width: 200px; /* Width of 200 pixels */
+            height: 200px; /* Height of 200 pixels */
+        }
+    </style>
+</head>
+<body>
+    <h1>Image with Border</h1>
+    <img src="https://as1.ftcdn.net/v2/jpg/00/26/62/88/1000_F_26628810_U0fI6gug5t9zf5zctflCavcsqj7Gi663.jpg" alt="Descriptive Text" class="bordered-image">
+</body>
+</html>
