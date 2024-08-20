@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 2000px; /* Ensure the page is long enough to scroll */
+        }
+        .link {
+            position: fixed;
+            width: 100%;
+            background-color: #f8f8f8;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .top-link {
+            top: 0;
+        }
+        .bottom-link {
+            bottom: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="link top-link">
+        <a href="#bottom">Go to Bottom</a>
+    </div>
+    
+    <!-- Content of the page -->
+    <div style="margin-top: 50px;">
+        <p>Welcome...</p>
+        <!-- Add more content here -->
+    </div>
+
+    <div id="bottom" style="padding: 20px;">
+        <p>Good Bye...</p>
+        <!-- Add more content here -->
+    </div>
+
+    <div class="link bottom-link">
+        <a href="#top">Go to Top</a>
+    </div>
+</body>
+</html>
