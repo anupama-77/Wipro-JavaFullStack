@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Name with Different Heading Sizes</title>
+    <style>
+        .letter {
+            display: inline-block;
+            margin: 0 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="letter">A</h1>
+    <h2 class="letter">n</h2>
+    <h3 class="letter">u</h3>
+    <h4 class="letter">p</h4>
+    <h5 class="letter">a</h5>
+    <h6 class="letter">m</h6>
+    <h1 class="letter">a</h1>
+</body>
+</html>
